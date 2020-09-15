@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Total from "./Total";
+import DoughnutChart from "./Chart";
 const Account = (props) => {
   const [profileState, setProfileState] = useState(props);
 
@@ -201,7 +202,8 @@ const Account = (props) => {
         </div>
       </div>
 
-      <Total {...state} />
+      <Total  />
+     
     </div>
   );
 };
