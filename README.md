@@ -67,11 +67,11 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
-### `For PUSH code to GitHub`
- git add .
- git commit -m "message"
- git push -u origin master
+## For PUSH code to GitHub
+ ### git add .
+ ### git commit -m "message"
+ ### git push -u origin master
 
-### `For update in Firebase`
-> npm run build
-> firebase deploy
+## For update in Firebase
+### npm run build
+### firebase deploy
